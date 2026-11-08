@@ -1,0 +1,16 @@
+# Ambientes Virtuais (Esconde a pasta inteira da venv)
+.venv/
+
+# Arquivos de dados 
+dados/
+
+# Arquivos do sistema e do VS Code
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Caches do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
