@@ -4,12 +4,12 @@ Este repositório documenta a minha jornada resolvendo o desafio do Titanic no K
 
 ---
 
-## 📋 Sobre o Desafio
+## Sobre o Desafio
 A missão é utilizar informações socioeconômicas e demográficas dos passageiros (como classe, idade, sexo e tamanho da família) para prever quem sobreviveu ou não ao naufrágio. O desempenho é medido através da **acurácia** (porcentagem de acertos).
 
 ---
 
-## 🛠️ Organização do Código e Pipeline de Dados
+## Organização do Código e Pipeline de Dados
 Para organizar o projeto separei o código de pré-processamento em funções reutilizáveis. O fluxo de dados foi construído para blindar o modelo contra *Data Leakage* (vazamento de dados do conjunto de teste para o treino).
 
 ### Principais Funções de Pré-processamento (*Data Prep*):
@@ -25,7 +25,7 @@ Para organizar o projeto separei o código de pré-processamento em funções re
 
 ---
 
-## 🤖 A Batalha dos Modelos: O que foi testado
+## A Batalha dos Modelos: O que foi testado
 Para avaliar o desempenho, utilizei **Validação Cruzada Estratificada (*StratifiedKFold*) com 5 divisões**, calculando a média das previsões (*Ensemble*) para gerar as submissões. Abaixo estão os 6 testes e modelos que realizei:
 
 1. **Modelo 1 (Random Forest Padrão + K-Fold)**
@@ -60,7 +60,7 @@ Para avaliar o desempenho, utilizei **Validação Cruzada Estratificada (*Strati
 
 ---
 
-## 📊 Conceitos de Ciência de Dados Aplicados
+## Conceitos de Ciência de Dados Aplicados
 Este projeto serviu para consolidar a prática de vários pilares fundamentais da área:
 * **Análise Exploratória (EDA):** Identificação de padrões visuais e correlações estatísticas (como o peso determinante do sexo e da classe social na sobrevivência).
 * **Engenharia de Recursos (*Feature Engineering*):** Transformação de colunas textuais brutas em variáveis numéricas informativas (títulos e tamanhos de famílias).
